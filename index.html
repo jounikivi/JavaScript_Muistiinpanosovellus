@@ -2,29 +2,22 @@
 <html lang="fi">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Muistiinpanot</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-<!-- Container elementti, joka määrittää sivuston keskittämisen ja ulkoasun -->
 <div class="container">
-  <!-- Sivuston otsikko -->
   <h1>Muistiinpanot</h1>
-
-  <!-- Syöttökentät muistiinpanojen lisäämistä varten -->
   <div class="input-section">
     <input type="text" id="otsikkoInput" placeholder="Syötä otsikko">
     <textarea id="tekstiInput" placeholder="Syötä teksti"></textarea>
     <button onclick="lisaaMuistiinpano()">Lisää muistiinpano</button>
   </div>
 
-  <!-- Tähän lisätään luodut muistiinpanot -->
   <div id="muistiinpanot"></div>
 </div>
 
-<!-- Script-tagi, joka lataa JavaScript-tiedoston -->
 <script src="app.js"></script>
 
 </body>
